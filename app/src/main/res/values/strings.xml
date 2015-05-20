@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CouchbaseEvents</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_hello_world">HelloWorldActivity</string>
+    <string name="title_activity_lab3">Lab3Activity</string>
+    <string name="title_activity_with_sync">WithSyncActivity</string>
+    <string name="title_activity_auth_sync">AuthSyncActivity</string>
+    <string name="title_activity_view">ViewActivity</string>
+    <string name="title_activity_live_query">LiveQueryActivity</string>
+    <string name="title_activity_conflict_resolve">ConflictResolveActivity</string>
+</resources>

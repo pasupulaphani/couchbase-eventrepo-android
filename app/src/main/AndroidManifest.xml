@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="couchbaseevents.training.couchbase.com.couchbaseevents" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <uses-permission android:name="android.permission.INTERNET" />
+
+        <activity
+            android:name=".HelloWorldActivity"
+            android:label="@string/title_activity_hello_world" >
+        </activity>
+        <activity
+            android:name=".Lab3Activity"
+            android:label="@string/title_activity_lab3" >
+        </activity>
+        <activity
+            android:name=".WithSyncActivity"
+            android:label="@string/title_activity_with_sync" >
+        </activity>
+        <activity
+            android:name=".AuthSyncActivity"
+            android:label="@string/title_activity_auth_sync" >
+        </activity>
+        <activity
+            android:name=".ViewActivity"
+            android:label="@string/title_activity_view" >
+        </activity>
+        <activity
+            android:name=".LiveQueryActivity"
+            android:label="@string/title_activity_live_query" >
+        </activity>
+        <activity
+            android:name=".ConflictResolveActivity"
+            android:label="@string/title_activity_conflict_resolve" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
